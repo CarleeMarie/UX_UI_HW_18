@@ -1,3 +1,13 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: #373738;
+    padding: 15px;
+}
+header p {
+    display: inline-block;
+}
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -11,31 +21,44 @@ nav {
     width: 73%;
     padding: 1%;
 }
-ul {
+header ul {
     width: 50%;
     margin-left: auto;
 }
+header il {
+    display: inline-block;
+    padding: 0px 5px;
+}
 .heroImg {
     height: 600px;
-    padding: 25px;
+    padding: 100px 15px;
     outline: 1px solid red;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #ebebeb;
 }
 .content {
-    width: 500px;
-    margin: 0 auto;   
+    max-width: 300px;
+    margin: 0 auto;  
+    padding: 50px;
+    background-color: #FFFFFF;
+    text-align: center; 
 }
 footer {
     background-color: #373738; 
+    padding: 5px;
+    color: white;
 }
-ul {
+footer ul {
+    list-style: none;
     margin: 0 auto;
     display: inline-block;
     vertical-align: top;
+    padding-left: 5px;
 }
-li {
-    margin: 0 auto;
+footer li {
+    display: inline-block;
+    padding: 0px 7px;
 }
 
 /*https://www.w3schools.com/cssref/css_selectors.asp*/
