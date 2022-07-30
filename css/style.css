@@ -2,3 +2,40 @@
     display: inline-block;
     vertical-align: top;
 }
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;  
+}
+nav {
+    width: 73%;
+    padding: 1%;
+}
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+.heroImg {
+    height: 600px;
+    padding: 25px;
+    outline: 1px solid red;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;   
+}
+footer {
+    background-color: #373738; 
+}
+ul {
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+}
+li {
+    margin: 0 auto;
+}
+
+/*https://www.w3schools.com/cssref/css_selectors.asp*/
