@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header {
     background-color: #373738;
@@ -43,6 +44,39 @@ header il {
     padding: 50px;
     background-color: #FFFFFF;
     text-align: center; 
+}
+.mySkills h1 {
+    text-align: center;
+}
+.flexContainer  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flexContainer div {
+    width: 33%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.myWork h1 {
+    text-align: center;
+}
+.workGrid {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 4;
+}
+.item1 {
+    grid-area: projectOne;
+}
+.item2 {
+    grid-area: projectTwo
+}
+.item3 {
+    grid-area: projecThree;
+}
+.AboutMe h1 {
+    text-align: center;
 }
 footer {
     background-color: #373738; 
