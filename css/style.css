@@ -60,7 +60,7 @@ header il {
 .myWork h1 {
     text-align: center;
 }
-.workGrid {
+#workGrid {
     margin: 10vh 23vw;
     height: 80vh;
     width: 54vh;
@@ -120,6 +120,7 @@ header il {
     grid-column: 1 / 6;
     grid-row: 1 / span 1;
     outline: 1px solid red;
+    text-align: center;
 }
 
 .AboutMe h1 {
@@ -143,7 +144,24 @@ footer li {
 }
 
 @media only screen and (max-width: 600px) {
-    
+    .flexContainer  {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+    } 
+    .flexContainer div {
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px;
+    } 
+    #workGrid {
+        margin: 10vh 23vw;
+        height: 80vh;
+        width: 54vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 1fr);
+    }
 }
 
 
